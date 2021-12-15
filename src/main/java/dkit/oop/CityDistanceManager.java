@@ -21,13 +21,9 @@ public class CityDistanceManager {
         // write code here
         System.out.printf("%-10s", "");
         for (int i = 0; i < cities.length; i++)
-        if (city1 == city2)
+        if (city1.contains(city1))
         {
-            System.out.printf("%10s", "The Cities Matched To A Base In Our System ");
-        }
-        else
-        {
-            System.out.println("");
+            System.out.println("You Have Typed [" + city1 + "]");
         }
         return 0;
     }
@@ -36,7 +32,10 @@ public class CityDistanceManager {
     public String findClosestCityTo(String searchCity)
     {
         // write code here
-
+        System.out.printf("%-10s", "");
+        for (int i = 0; i < distances.length; i++)
+        {
+        }
         return "unknown";
     }
 

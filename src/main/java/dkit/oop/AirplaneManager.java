@@ -30,7 +30,6 @@ public class AirplaneManager {
 
     public void displayAllAirplanes()
     {
-            
     }
 
     public void displayAllPassengerAirplanes() {

@@ -47,8 +47,10 @@ public class App
         // Uncomment all the code below and implement the two methods
         // in the CityDistanceManager class.
 
+        System.out.println("==================================================================");
         CityDistanceManager cityDistanceManager = new CityDistanceManager();
         cityDistanceManager.printCitiesData();
+        System.out.println("==================================================================");
 
         Scanner keyboard = new Scanner(System.in);
         System.out.print("\nPlease enter first city name:");
