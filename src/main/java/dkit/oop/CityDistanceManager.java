@@ -16,8 +16,19 @@ public class CityDistanceManager {
     CityDistanceManager(){};    // constructor;
 
     // Q4.1
-    public int findDistanceBetween(String city1, String city2) {
+    public int findDistanceBetween(String city1, String city2)
+    {
         // write code here
+        System.out.printf("%-10s", "");
+        for (int i = 0; i < cities.length; i++)
+        if (city1 == city2)
+        {
+            System.out.printf("%10s", "The Cities Matched To A Base In Our System ");
+        }
+        else
+        {
+            System.out.println("");
+        }
         return 0;
     }
 

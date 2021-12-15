@@ -22,12 +22,15 @@ public class AirplaneManager {
     }
 
     //Q3.
+    private String passengerName;
+    private int airplaneId;
 
     // write add() method
 
 
-    public void displayAllAirplanes() {
-        // add code
+    public void displayAllAirplanes()
+    {
+            
     }
 
     public void displayAllPassengerAirplanes() {
@@ -35,18 +38,32 @@ public class AirplaneManager {
     }
 
     //  write method getAllCargoAirplanes()
-
+    public void getAllCargoAirplanes() {
+        // add code
+    }
 
     // write  addPassengerNameToAirplane( airplaneId, passengerName)
-
+    public void addPassengerNameToAirplane(int airplaneId, String passengerName) {
+        // add code
+    }
 
     // write containsAirplane( Airplane plane )
 
+    public void containsAirplane(Airplane airplane) {
+        // add code
+    }
 
-    // write findAirplaneByPassengerName( passengerName )
+    // write findAirplaneByPassengerName(passengerName)
+
+    public void findAirplaneByPassengerName(String passengerName)
+    {
+        // add code
+    }
 
     // write displayAllAirplanesInOrderOfType( argument )
-
+    public void displayAllAirplanesInOrderOfType() {
+        // add code
+    }
 
 } // end of AirplaneManager
 
