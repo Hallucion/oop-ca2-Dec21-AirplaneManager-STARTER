@@ -33,8 +33,10 @@ public class CityDistanceManager {
     }
 
     // Q4.2
-    public String findClosestCityTo(String searchCity) {
+    public String findClosestCityTo(String searchCity)
+    {
         // write code here
+
         return "unknown";
     }
 

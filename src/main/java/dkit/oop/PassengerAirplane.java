@@ -16,7 +16,6 @@ public class PassengerAirplane
         // code here
         this.type = type;
         this.maxNumPassengers = maxNumPassengers;
-
     }
 
     public void addPassenger(String name)
@@ -39,7 +38,7 @@ public class PassengerAirplane
     @Override
     public String toString()
     {
-        return "{" + "type=" + type + ", maxNumPassengers=" + maxNumPassengers;
+        return "Plane = [" + type + "] And THE Current maxNumPassengers Avaliable Is = [" + maxNumPassengers + "]";
     }
 
 

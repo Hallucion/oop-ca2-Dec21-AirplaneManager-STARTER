@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * OOP CA2 December 2021 - Airplane Management System  STARTER CODE
  */
-public class App 
+public class App
 {
     public static void main( String[] args ){
         new App().start();
@@ -22,13 +22,17 @@ public class App
          CargoAirplane cargoPlane2 = new CargoAirplane("Boeing C-7000",25000);
 
         // display the two objects
-
+         System.out.println("\nThe following list are all of the Airplanes That We Have");
+         System.out.println("\nOur First Plane Is Cargoplane : " + cargoPlane1 + "\nOur Second Plane Is Cargoplane : " + cargoPlane2);
 
          AirplaneManager mgr = new AirplaneManager();
 
         //Q2
          PassengerAirplane passengerPlane1 = new PassengerAirplane("Boeing 747",524);
          PassengerAirplane passengerPlane2 = new PassengerAirplane("Airbus 380",525);
+
+          System.out.println("\nOur Other Plane of Choice is : " + passengerPlane1 + "\n And Our Plane of Choice is : " + passengerPlane2 + "\n");
+
          //Add passengers to Passenger planes
          passengerPlane1.addPassenger("Tom Hardy");
          passengerPlane1.addPassenger("Margot Robbie");

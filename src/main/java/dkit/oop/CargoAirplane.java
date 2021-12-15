@@ -5,15 +5,15 @@ public class CargoAirplane
 
 
     // fields (ref. Q1)
-    private int MAX_LOAD_KILOS;
-    private int currentLoad;
+    private String s;
+    private int i;
     private String name;
 
     // constructor
     public CargoAirplane(String s, int i)
     {
-        this.MAX_LOAD_KILOS = MAX_LOAD_KILOS;
-        this.currentLoad = currentLoad;
+        this.s = s;
+        this.i = i;
 
     }
 
@@ -27,9 +27,8 @@ public class CargoAirplane
     // toString()
     @Override
     public String toString() {
-        return "PassengerAirplane{" +
-                " MAX_LOAD_KILOS = "+ MAX_LOAD_KILOS +
-                " currentLoad = "+ currentLoad;
+        return "Plane = ["+ s +
+                "]  And Its currentLoad is = ["+ i + "]";
     }
 
 
